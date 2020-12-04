@@ -1,0 +1,12 @@
+app:
+  datasource:
+    jdbc-url: jdbc:postgresql://localhost:5432/ #DATABASE
+    username: #DB USERNAME
+    password: #DB PWD
+    pool-size: 30
+  slack:
+    url: https://slack.com/api/chat.postMessage
+    url-im-list: https://slack.com/api/conversations.list?types=im
+    bot-token: #BOT TOKEN
+    channel: #CHANNEL TO POST
+    api-app-id: #BOT API ID
